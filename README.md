@@ -1,9 +1,10 @@
 # Ikebana Studio
 
 A beautiful, interactive web application for creating digital ikebana (Japanese flower arrangements). Experience the zen-like art of ikebana with realistic physics-based interactions and a carefully crafted Japanese aesthetic.
+
 Visit: https://ikebana-studio.vercel.app/
 
-<img width="844" height="471" alt="image" src="https://github.com/user-attachments/assets/46e0c9f4-7b66-4d8b-9e93-436c13c38fcb" />
+<img width="1913" height="940" alt="image" src="https://github.com/user-attachments/assets/c6c54648-aafe-4c46-9277-a8eaa3a678fc" />
 
 
 ## Features
