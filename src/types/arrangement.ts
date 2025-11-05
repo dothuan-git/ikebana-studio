@@ -9,6 +9,9 @@ export interface PlacedElement {
   rotation: number;
   scale: number;
   zIndex: number;
+  branchSize?: number;
+  flowerSize?: number;
+  leafSize?: number;
 }
 
 export interface ArrangementState {

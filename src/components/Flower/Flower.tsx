@@ -20,6 +20,8 @@ interface FlowerProps {
   scale?: number;
   rotation?: number;
   className?: string;
+  branchSize?: number;
+  flowerSize?: number;
 }
 
 export const FlowerComponent: React.FC<FlowerProps> = ({
@@ -27,13 +29,17 @@ export const FlowerComponent: React.FC<FlowerProps> = ({
   color,
   scale = 1,
   rotation = 0,
-  className = ''
+  className = '',
+  branchSize = 1,
+  flowerSize = 1
 }) => {
   const commonProps = {
     color,
     scale,
     rotation,
     className,
+    branchSize,
+    flowerSize,
   };
 
   switch (type) {

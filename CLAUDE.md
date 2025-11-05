@@ -1,0 +1,1 @@
+- Write short and consice commit when stage and commit code.

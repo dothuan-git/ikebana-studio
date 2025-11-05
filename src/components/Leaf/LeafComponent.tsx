@@ -13,6 +13,7 @@ interface LeafProps {
   scale?: number;
   rotation?: number;
   className?: string;
+  leafSize?: number;
 }
 
 export const LeafComponent: React.FC<LeafProps> = ({
@@ -20,13 +21,15 @@ export const LeafComponent: React.FC<LeafProps> = ({
   color,
   scale = 1,
   rotation = 0,
-  className = ''
+  className = '',
+  leafSize = 1
 }) => {
   const commonProps = {
     color,
     scale,
     rotation,
     className,
+    leafSize,
   };
 
   switch (type) {

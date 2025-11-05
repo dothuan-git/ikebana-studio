@@ -147,7 +147,7 @@ export const PlacedElementComponent: React.FC<PlacedElementComponentProps> = ({ 
         top: element.y,
         zIndex: isDragging ? 9999 : element.zIndex,
         cursor: isDragging ? 'grabbing' : 'grab',
-        transform: `scale(${element.scale}) rotate(${element.rotation}deg)`,
+        transform: `scale(${element.scale}) rotate(${element.rotation}deg) scaleY(${element.type === 'flower' ? element.branchSize || 1 : element.leafSize || 1})`,
         transformOrigin: 'center center',
       }}
       onMouseDown={handleMouseDown}
@@ -155,9 +155,18 @@ export const PlacedElementComponent: React.FC<PlacedElementComponentProps> = ({ 
       className={`${isSelected ? 'ring-2 ring-accent-indigo ring-offset-2' : ''}`}
     >
       {element.type === 'flower' ? (
-        <FlowerComponent type={element.elementType as any} color={color} />
+        <FlowerComponent
+          type={element.elementType as any}
+          color={color}
+          branchSize={element.branchSize}
+          flowerSize={element.flowerSize}
+        />
       ) : (
-        <LeafComponent type={element.elementType as any} color={color} />
+        <LeafComponent
+          type={element.elementType as any}
+          color={color}
+          leafSize={element.leafSize}
+        />
       )}
     </motion.div>
   );
