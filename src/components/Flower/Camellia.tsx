@@ -27,7 +27,7 @@ export const Camellia: React.FC<CamelliaProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem and leaves */}
-      <g transform={`scale(1, ${branchSize})`} transformOrigin="50 130">
+      <g transform={`scale(1, ${branchSize})`} transformOrigin="50 35">
         <path
           d="M 50 130 Q 49 100 50 70 Q 51 50 50 35"
           stroke="#6B8E23"

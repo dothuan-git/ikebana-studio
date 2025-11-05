@@ -147,7 +147,7 @@ export const PlacedElementComponent: React.FC<PlacedElementComponentProps> = ({ 
         top: element.y,
         zIndex: isDragging ? 9999 : element.zIndex,
         cursor: isDragging ? 'grabbing' : 'grab',
-        transform: `scale(${element.scale}) rotate(${element.rotation}deg) scaleY(${element.type === 'flower' ? element.branchSize || 1 : element.leafSize || 1})`,
+        transform: `scale(${element.scale}) rotate(${element.rotation}deg)`,
         transformOrigin: 'center center',
       }}
       onMouseDown={handleMouseDown}

@@ -27,7 +27,7 @@ export const PlumBlossom: React.FC<PlumBlossomProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem with slight curve */}
-      <g transform={`scale(1, ${branchSize})`} transform-origin="42 125">
+      <g transform={`scale(1, ${branchSize})`} transform-origin="42 25">
         <path
           d="M 42 125 Q 40 95 42 65 Q 43 45 42 25"
           stroke="#5D4E37"

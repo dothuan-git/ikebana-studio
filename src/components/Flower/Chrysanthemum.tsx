@@ -27,7 +27,7 @@ export const Chrysanthemum: React.FC<ChrysanthemumProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem */}
-      <g transform={`scale(1, ${branchSize})`} transform-origin="50 140">
+      <g transform={`scale(1, ${branchSize})`} transform-origin="50 30">
         <path
           d="M 50 140 Q 48 100 50 70 Q 51 50 50 30"
           stroke="#6B8E23"

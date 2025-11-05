@@ -27,7 +27,7 @@ export const Magnolia: React.FC<MagnoliaProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem and leaves */}
-      <g transform={`scale(1, ${branchSize})`} transformOrigin="60 160">
+      <g transform={`scale(1, ${branchSize})`} transformOrigin="60 50">
         <path
           d="M 60 160 Q 59 120 60 85 Q 61 65 60 50"
           stroke="#8B4513"

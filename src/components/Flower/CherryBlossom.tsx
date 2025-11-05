@@ -27,7 +27,7 @@ export const CherryBlossom: React.FC<CherryBlossomProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem */}
-      <g transform={`scale(1, ${branchSize})`} transform-origin="40 120">
+      <g transform={`scale(1, ${branchSize})`} transform-origin="40 20">
         <path
           d="M 40 120 Q 38 90 40 60 Q 41 40 40 20"
           stroke="#6B8E23"

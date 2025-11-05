@@ -27,7 +27,7 @@ export const Lily: React.FC<LilyProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem and branch */}
-      <g transform={`scale(1, ${branchSize})`} transformOrigin="55 160">
+      <g transform={`scale(1, ${branchSize})`} transformOrigin="55 40">
         <path
           d="M 55 160 Q 53 120 55 85 Q 56 60 55 40"
           stroke="#6B8E23"

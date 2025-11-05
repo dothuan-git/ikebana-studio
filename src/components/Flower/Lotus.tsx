@@ -27,7 +27,7 @@ export const Lotus: React.FC<LotusProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem and leaf */}
-      <g transform={`scale(1, ${branchSize})`} transformOrigin="65 150">
+      <g transform={`scale(1, ${branchSize})`} transformOrigin="65 45">
         <path
           d="M 65 150 Q 64 110 65 80 Q 66 60 65 45"
           stroke="#6B8E23"

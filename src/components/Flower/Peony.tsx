@@ -27,7 +27,7 @@ export const Peony: React.FC<PeonyProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem and branch */}
-      <g transform={`scale(1, ${branchSize})`} transformOrigin="60 150">
+      <g transform={`scale(1, ${branchSize})`} transformOrigin="60 45">
         <path
           d="M 60 150 Q 58 110 60 80 Q 61 60 60 45"
           stroke="#6B8E23"

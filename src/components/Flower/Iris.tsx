@@ -27,7 +27,7 @@ export const Iris: React.FC<IrisProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem */}
-      <g transform={`scale(1, ${branchSize})`} transform-origin="45 150">
+      <g transform={`scale(1, ${branchSize})`} transform-origin="45 40">
         <path
           d="M 45 150 Q 44 110 45 80 Q 46 60 45 40"
           stroke="#6B8E23"

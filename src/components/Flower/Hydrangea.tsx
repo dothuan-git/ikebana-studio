@@ -27,7 +27,7 @@ export const Hydrangea: React.FC<HydrangeaProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem and leaves */}
-      <g transform={`scale(1, ${branchSize})`} transformOrigin="55 140">
+      <g transform={`scale(1, ${branchSize})`} transformOrigin="55 50">
         <path
           d="M 55 140 Q 54 110 55 80 Q 56 60 55 50"
           stroke="#6B8E23"

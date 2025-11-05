@@ -27,7 +27,7 @@ export const Jasmine: React.FC<JasmineProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Thin stem and leaves */}
-      <g transform={`scale(1, ${branchSize})`} transformOrigin="35 110">
+      <g transform={`scale(1, ${branchSize})`} transformOrigin="35 20">
         <path
           d="M 35 110 Q 34 85 35 60 Q 36 40 35 20"
           stroke="#6B8E23"

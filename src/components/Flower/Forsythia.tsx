@@ -27,7 +27,7 @@ export const Forsythia: React.FC<ForsythiaProps> = ({
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Stem */}
-      <g transform={`scale(1, ${branchSize})`} transform-origin="37 130">
+      <g transform={`scale(1, ${branchSize})`} transform-origin="37 30">
         <path
           d="M 37 130 Q 36 100 37 70 Q 38 50 37 30"
           stroke="#6B8E23"
