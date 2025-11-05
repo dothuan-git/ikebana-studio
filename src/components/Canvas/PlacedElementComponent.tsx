@@ -147,8 +147,6 @@ export const PlacedElementComponent: React.FC<PlacedElementComponentProps> = ({ 
         top: element.y,
         zIndex: isDragging ? 9999 : element.zIndex,
         cursor: isDragging ? 'grabbing' : 'grab',
-        transform: `scale(${element.scale}) rotate(${element.rotation}deg)`,
-        transformOrigin: 'center center',
       }}
       onMouseDown={handleMouseDown}
       onWheel={handleWheel}
@@ -158,6 +156,8 @@ export const PlacedElementComponent: React.FC<PlacedElementComponentProps> = ({ 
         <FlowerComponent
           type={element.elementType as any}
           color={color}
+          scale={element.scale}
+          rotation={element.rotation}
           branchSize={element.branchSize}
           flowerSize={element.flowerSize}
         />
@@ -165,6 +165,8 @@ export const PlacedElementComponent: React.FC<PlacedElementComponentProps> = ({ 
         <LeafComponent
           type={element.elementType as any}
           color={color}
+          scale={element.scale}
+          rotation={element.rotation}
           leafSize={element.leafSize}
         />
       )}
