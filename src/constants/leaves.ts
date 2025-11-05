@@ -1,0 +1,60 @@
+import { Leaf } from '../types';
+
+export const LEAVES: Leaf[] = [
+  {
+    id: 'bamboo-1',
+    type: 'bamboo',
+    name: 'Bamboo Leaves',
+    color: '#8B9D83',
+    size: 'medium',
+    description: 'Long, narrow bamboo leaves',
+  },
+  {
+    id: 'maple-1',
+    type: 'maple',
+    name: 'Green Maple',
+    color: '#6B8E23',
+    size: 'medium',
+    description: '5-pointed maple leaves in green',
+  },
+  {
+    id: 'maple-2',
+    type: 'maple',
+    name: 'Red Maple',
+    color: '#DC143C',
+    size: 'medium',
+    description: '5-pointed maple leaves in autumn red',
+  },
+  {
+    id: 'fern-1',
+    type: 'fern',
+    name: 'Fern Fronds',
+    color: '#556B2F',
+    size: 'large',
+    description: 'Delicate fern fronds with multiple segments',
+  },
+  {
+    id: 'broad-1',
+    type: 'broad',
+    name: 'Broad Leaves',
+    color: '#228B22',
+    size: 'large',
+    description: 'Simple, oval broad leaves',
+  },
+  {
+    id: 'pine-1',
+    type: 'pine',
+    name: 'Pine Needles',
+    color: '#2F4F2F',
+    size: 'small',
+    description: 'Clusters of pine needles',
+  },
+  {
+    id: 'willow-1',
+    type: 'willow',
+    name: 'Willow Branches',
+    color: '#9BB89F',
+    size: 'large',
+    description: 'Drooping willow branches with thin leaves',
+  },
+];
